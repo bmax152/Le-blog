@@ -1,0 +1,433 @@
+/* General */
+
+body {
+	width: 800px;
+	background-color: #CCCCCC;
+	margin: auto;
+}
+
+/* Login */
+
+#mainLog {
+	width: 350px;
+	margin: 100px auto;
+	border: 1.5px dashed white;
+	border-radius: 10px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+#loginDb {
+	padding: 20px;
+}
+
+#mainLog div {
+	text-align: center;
+}
+
+#mainLog label {
+	display: block;
+	width: 100px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+#mainLog input {
+	margin-bottom: 10px;
+}
+
+/* Formulaire ajout au Blog */
+
+#mainAjout {
+	width: 800px;
+	margin: 100px auto;
+	border: 1.5px dashed white;
+	border-radius: 10px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainAjout h1 {
+	text-align: center;
+	font-size: 30px;
+	padding: 20px 0 40px 0;
+}
+
+.formAjout {
+	margin: 20px 30px;
+}
+
+.formAjout label {
+	display: block;
+	width: 210px;
+	float: left;
+	font-size: 15px;
+	padding-right: 3px;
+}
+
+#formAjoutBlog button {
+	margin: 30px 240px;
+}
+
+#lienRetour {
+	text-align: center;
+}
+
+/* Page d'ajout */
+
+#mainAjoutBdd {
+	width: 400px;
+	margin: 100px auto;
+	border: 1.5px dashed white;
+	border-radius: 10px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	padding: 20px;
+}
+
+#mainAjoutBdd a {
+	margin-left: 30px;
+}
+
+/* Blog */
+
+#corpBlog hr {
+	height: 12px;
+	border: 0;
+	box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+#titreBlog {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background-color: #BBBBBB;
+	color: white;
+	text-align: center;
+	padding: 20px 0 20px 0;
+	font-size: 30px;
+}
+
+#en_tete {
+	background-color: #CCCCCC;
+	padding-top: 15px;
+	height: 165px;
+}
+
+#divConnexion {
+	text-align: right;
+	margin-right: 20px;
+}
+
+#divConnexion a {
+	text-decoration: none;
+	color: white;
+	margin-left: 20px;
+}
+
+#divConnexion a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+.gestionLog {
+	text-decoration: none;
+	color: grey;
+	margin-left: 20px;
+}
+
+.gestionLog:hover {
+	color: black;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+.ajoutComm {
+	text-align: right;
+	margin-right: 10px;
+}
+
+#corpBlog {
+	width: 600px;
+	margin: auto;
+	background-color: white;
+	border: dashed #BBBBBB 1.5px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgArticle {
+	display: block;
+	max-width: 480px;
+	margin: 30px auto;
+}
+
+.titreArticle, .titreArticleComm {
+	margin-left: 30px;
+	font-size: 28px;
+}
+
+section div {
+	text-align: center;
+}
+
+.auteurDate {
+	text-align: right;
+	font-size: 15px;
+	margin-right: 10px;
+	font-style: italic;
+}
+
+.texteArticle {
+	margin: 10px 30px 40px 30px;
+	font-size: 18px;
+	text-align: justify;
+}
+
+#divAncre {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.ancre {
+	background-color: #BBBBBB;
+	padding: 5px 3px 5px 3px;
+	/*border: 1px solid black;*/
+}
+
+.ancre a {
+	text-decoration: none;
+	color: white !important;
+}
+
+.ancre a:hover {
+	text-decoration: underline;
+	color: black !important;
+}
+
+#bonjour {
+	margin-left: 25px;
+	font-style: italic;
+	font-size: 16px;
+}
+
+/* Boutons */
+
+.bouton {
+	box-shadow: 3px 4px 0px 0px #899599;
+	background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color: #ededed;
+	border-radius: 15px;
+	border: 1px solid #a8a3a8;
+	display: inline-block;
+	cursor: pointer;
+	color: #5b6466;
+	font-family: Arial;
+	font-size: 15px;
+	padding: 3px 10px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #e1e2ed;
+}
+
+.bouton:hover {
+	background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color: #bab1ba;
+}
+
+.bouton:active {
+	position: relative;
+	top: 1px;
+}
+
+.boutonBlog {
+	box-shadow: inset 0px 1px 0px 0px #ffffff;
+	background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color: #ededed;
+	border-radius: 6px;
+	border: 1px solid #dcdcdc;
+	display: inline-block;
+	cursor: pointer;
+	color: #777777;
+	font-family: Arial;
+	font-size: 12px;
+	padding: 3px 10px;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #ffffff;
+}
+
+.boutonBlog:hover {
+	background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color: #dfdfdf;
+}
+
+.boutonBlog:active {
+	position: relative;
+	top: 1px;
+}
+
+/* Tableau Admin */
+
+#tableau, #tableau td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+#tableau {
+	margin: 20px auto 0 auto;
+	font-size: 15px;
+}
+
+#bodyTab {
+	width: 1400px !important;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#tableau td {
+	min-width: 120px;
+	text-align: center;
+	padding: 10px 5px;
+}
+
+#tableau th {
+	font-weight: bold;
+}
+
+.couleur {
+	background-color: #b4b4b4;
+}
+
+#formSupp div {
+	display: block;
+	text-align: right;
+	margin-top: 5px;
+}
+
+#infoSupp {
+	text-align: center;
+}
+
+/* Section Comm */
+
+.titreComm {
+	margin-left: 30px;
+	font-size: 15px;
+}
+
+.auteurDateComm {
+	font-size: 10px;
+	margin-left: 10px;
+	font-style: italic;
+}
+
+.imgComm {
+	width: 200px;
+}
+
+.texteComm {
+	margin: 5px 15px 20px 15px;
+	font-size: 12px;
+	text-align: justify;
+}
+
+.unCommentaire {
+	/* min-height: 180px; */
+	border: dashed #BBBBBB 1.5px;
+	display: flex;
+	justify-content: space-between;
+	padding: 2px;
+	border-radius: 5px;
+	width: 90%;
+	margin: 5px auto 30px auto;
+}
+
+.gestionComm {
+	text-decoration: none;
+	color: rgb(77, 77, 77);
+	margin-left: 12px;
+	font-size: 12px !important;
+}
+
+.gestionComm:hover {
+	color: black;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+/* Ordre commentaires */
+
+#flex {
+	display: flex;
+	flex-direction: column;
+}
+
+#a {
+	order: 2;
+}
+
+#b {
+	order: 1;
+	margin-bottom: 10px;
+}
+
+
+#akimbo{
+	height: 55px;
+}
+
+#x, #z1{
+	position: relative;
+	left: 10px;	
+}
+
+#y, #z2{
+	position: relative;
+	left: 420px;
+}
+
+#x a, #y a, #z1, #z2{
+	text-decoration: none;
+	color: grey;
+}
+
+#x a:hover, #y a:hover {
+	color: black;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+.sousCommentaire {
+
+	border: dashed black 1.5px;
+	display: flex;
+	justify-content: space-between;
+	padding: 2px;
+	border-radius: 5px;
+	width: 90%;
+	margin: 5px auto 30px auto;
+}
+
+.gestionLogComm {
+
+	text-decoration: none;
+	color: grey;
+	position: relative;
+	top: -25px;
+	left: 500px;
+	
+}
+
+.gestionLogComm:hover {
+
+	color: black;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+/* .gestionLog {
+	text-decoration: none;
+	color: grey;
+	margin-left: 20px;
+}
+
+.gestionLog:hover {
+	color: black;
+	text-decoration: underline;
+	font-style: italic;
+} */
